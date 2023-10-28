@@ -1,0 +1,15 @@
+<form class="formulario" [formGroup]="formRegister">
+  <mat-form-field class="form-input">
+    <mat-label>Nome</mat-label>
+    <input type="text" matInput formControlName="nome" />
+  </mat-form-field>
+  <mat-form-field class="form-input">
+    <mat-label>E-mail</mat-label>
+    <input type="email" matInput formControlName="email" />
+  </mat-form-field>
+  <mat-form-field class="form-input">
+    <mat-label>Senha</mat-label>
+    <input type="password" matInput formControlName="senha" />
+  </mat-form-field>
+  <button mat-raised-button color="primary">Criar</button>
+</form>
